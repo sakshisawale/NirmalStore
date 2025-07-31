@@ -15,8 +15,8 @@ const ImageCarousel: React.FC = () => {
   const images: CarouselImage[] = [
     {
       id: 1,
-      src: 'https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      alt: 'Agricultural field with crops'
+      src: 'https://res.cloudinary.com/dvwzu7fcc/image/upload/v1753939579/store_ev6qwu.jpg?auto=compress&cs=tinysrgb&w=1200',
+      alt: 'Store image'
     },
     {
       id: 2,
