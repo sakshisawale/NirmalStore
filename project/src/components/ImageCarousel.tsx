@@ -20,7 +20,7 @@ const ImageCarousel: React.FC = () => {
     },
     {
       id: 2,
-      src: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      src: 'https://res.cloudinary.com/dvwzu7fcc/image/upload/c_crop,ar_16:9/v1753940630/irrigation_mblxog.jpg?auto=compress&cs=tinysrgb&w=1200',
       alt: 'Fresh vegetables and produce'
     },
     {

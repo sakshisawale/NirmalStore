@@ -27,13 +27,15 @@ const translations = {
     
     // Categories
     seeds: 'Seeds',
-    pesticides: 'Pesticides',
     fertilizers: 'Fertilizers',
     herbicides: 'Herbicides',
-    chemicals: 'Chemicals',
-    irrigation: 'Drip & Frost Irrigation',
+    pgr: 'Plant Growth Regulators', 
+    insecticides: 'Insecticides',
+    micronutrients: 'Micronutrients',
+    fungicides: 'Fungicides',
+    irrigation: 'Drip and Sprinkler Irrigation',
     mulching: 'Mulching Paper',
-    rainpipes: 'Rainpipes',
+    rainpipes: 'Rain Pipes',
     sprayPumps: 'Spray Pumps',
     
     // Products
@@ -67,15 +69,17 @@ const translations = {
     footerText: '© 2025 Nirmal Store. Developed with ❤️. All rights reserved.',
     
     // Product descriptions
-    seedsDesc: 'High-quality vegetable, flower, and crop seeds from trusted brands',
-    pesticidesDesc: 'Effective pest control solutions for healthy crop growth',
-    fertilizersDesc: 'Organic and chemical fertilizers for optimal plant nutrition',
-    herbicidesDesc: 'Selective and non-selective herbicides for weed control',
-    chemicalsDesc: 'Agricultural chemicals for crop protection and enhancement',
-    irrigationDesc: 'Modern drip and frost irrigation systems for efficient watering',
-    mulchingDesc: 'Durable mulching paper for soil protection and weed control',
-    rainpipesDesc: 'Quality rain pipes for reliable water distribution',
-    sprayPumpsDesc: 'Efficient spray pumps for pesticide and fertilizer application'
+   seedsDesc: 'High-quality vegetable, flower, and crop seeds from trusted brands',
+fertilizersDesc: 'Organic and chemical fertilizers for optimal plant nutrition',
+pgrDesc: 'Plant growth regulators to enhance yield, flowering, and crop quality',
+herbicidesDesc: 'Selective and non-selective herbicides for effective weed control',
+insecticidesDesc: 'Reliable solutions to protect crops from harmful pests and insects',
+micronutrientsDesc: 'Essential micronutrients to prevent deficiencies and improve plant health',
+fungicidesDesc: 'Effective fungicides to control and prevent crop fungal diseases',
+irrigationDesc: 'Modern drip and sprinkler systems for efficient and precise watering',
+mulchingDesc: 'Durable mulching paper for soil protection and weed suppression',
+rainpipesDesc: 'Quality rain pipes for uniform and reliable water distribution',
+sprayPumpsDesc: 'Efficient spray pumps for pesticide and fertilizer application'
   },
   
   mr: {
@@ -93,15 +97,19 @@ const translations = {
     viewProducts: 'उत्पादने पहा',
     
     // Categories
+
     seeds: 'बियाणे',
-    pesticides: 'कीटकनाशके',
-    fertilizers: 'खते',
-    herbicides: 'तणनाशके',
-    chemicals: 'रसायने',
-    irrigation: 'ठिबक आणि हिमकणा सिंचन',
-    mulching: 'मल्चिंग पेपर',
-    rainpipes: 'रेन पाईप्स',
-    sprayPumps: 'फवारणी पंप',
+fertilizers: 'खते',
+pgr: 'वनस्पती वाढ नियामक',
+herbicides: 'तणनाशक',
+insecticides: 'कीटकनाशके',
+micronutrients: 'सूक्ष्म पोषक तत्वे',
+fungicides: 'बुरशीनाशके',
+irrigation: 'ड्रिप आणि स्प्रिंकलर सिंचन',
+mulching: 'मल्चिंग पेपर',
+rainpipes: 'पावसाचे पाइप',
+sprayPumps: 'स्प्रे पंप',
+
     
     // Products
     allCategories: 'सर्व श्रेणी',
@@ -135,15 +143,17 @@ const translations = {
     footerText: '© २०२५ निर्मल स्टोअर. ❤️ सह विकसित. सर्व हक्क राखीव.',
     
     // Product descriptions
-    seedsDesc: 'विश्वसनीय ब्रँड्सकडून उच्च-गुणवत्तेची भाजी, फुले आणि पिकांची बियाणे',
-    pesticidesDesc: 'निरोगी पीक वाढीसाठी प्रभावी कीटक नियंत्रण समाधान',
-    fertilizersDesc: 'इष्टतम वनस्पती पोषणासाठी सेंद्रिय आणि रासायनिक खते',
-    herbicidesDesc: 'तण नियंत्रणासाठी निवडक आणि अनिवडक तणनाशके',
-    chemicalsDesc: 'पीक संरक्षण आणि वाढीसाठी कृषी रसायने',
-    irrigationDesc: 'कार्यक्षम पाणी पुरवठ्यासाठी आधुनिक ठिबक आणि हिमकणा सिंचन यंत्रणा',
-    mulchingDesc: 'मातीचे संरक्षण आणि तण नियंत्रणासाठी टिकाऊ मल्चिंग पेपर',
-    rainpipesDesc: 'विश्वसनीय पाणी वितरणासाठी दर्जेदार रेन पाईप्स',
-    sprayPumpsDesc: 'कीटकनाशक आणि खत वापरण्यासाठी कार्यक्षम फवारणी पंप'
+   seedsDesc: 'विश्वसनीय ब्रँड्सकडून उच्च-गुणवत्तेची भाजी, फुले आणि पिकांची बियाणे',
+fertilizersDesc: 'इष्टतम वनस्पती पोषणासाठी सेंद्रिय आणि रासायनिक खते',
+pgrDesc: 'पिकांची वाढ, फुलोरा आणि उत्पादन वाढवण्यासाठी प्रभावी वाढ नियामक',
+herbicidesDesc: 'तण नियंत्रणासाठी निवडक आणि अनिवडक तणनाशके',
+insecticidesDesc: 'पिकांना कीडांपासून सुरक्षित ठेवण्यासाठी विश्वासार्ह उपाय',
+micronutrientsDesc: 'वनस्पतींच्या निरोगी वाढीसाठी आवश्यक सूक्ष्म पोषक तत्वे',
+fungicidesDesc: 'बुरशीजन्य रोगांपासून संरक्षणासाठी प्रभावी बुरशीनाशके',
+irrigationDesc: 'कार्यक्षम पाणी पुरवठ्यासाठी आधुनिक ठिबक आणि स्प्रिंकलर सिंचन यंत्रणा',
+mulchingDesc: 'मातीचे संरक्षण आणि तण नियंत्रणासाठी टिकाऊ मल्चिंग पेपर',
+rainpipesDesc: 'विश्वसनीय पाणी वितरणासाठी दर्जेदार रेन पाईप्स',
+sprayPumpsDesc: 'कीटकनाशक आणि खत फवारणीसाठी कार्यक्षम पंप'
   },
   
   hi: {
@@ -161,16 +171,17 @@ const translations = {
     viewProducts: 'उत्पाद देखें',
     
     // Categories
-    seeds: 'बीज',
-    pesticides: 'कीटनाशक',
-    fertilizers: 'उर्वरक',
-    herbicides: 'खरपतवारनाशी',
-    chemicals: 'रसायन',
-    irrigation: 'ड्रिप और फ्रॉस्ट सिंचाई',
-    mulching: 'मल्चिंग पेपर',
-    rainpipes: 'रेन पाइप्स',
-    sprayPumps: 'स्प्रे पंप',
-    
+   seeds: 'बीज',
+fertilizers: 'उर्वरक',
+pgr: 'पौध वृद्धि नियामक',
+herbicides: 'शाकनाशी',
+insecticides: 'कीट नियंत्रण दवा',
+micronutrients: 'सूक्ष्म पोषक तत्व',
+fungicides: 'फफूंदनाशी',
+irrigation: 'ड्रिप और स्प्रिंकलर सिंचाई',
+mulching: 'मल्चिंग पेपर',
+rainpipes: 'वर्षा पाइप',
+sprayPumps: 'स्प्रे पंप',
     // Products
     allCategories: 'सभी श्रेणियां',
     viewDetails: 'विवरण देखें',
@@ -204,14 +215,16 @@ const translations = {
     
     // Product descriptions
     seedsDesc: 'विश्वसनीय ब्रांडों से उच्च-गुणवत्ता वाली सब्जी, फूल और फसल के बीज',
-    pesticidesDesc: 'स्वस्थ फसल वृद्धि के लिए प्रभावी कीट नियंत्रण समाधान',
-    fertilizersDesc: 'इष्टतम पौधे पोषण के लिए जैविक और रासायनिक उर्वरक',
-    herbicidesDesc: 'खरपतवार नियंत्रण के लिए चुनिंदा और गैर-चुनिंदा खरपतवारनाशी',
-    chemicalsDesc: 'फसल सुरक्षा और वृद्धि के लिए कृषि रसायन',
-    irrigationDesc: 'कुशल पानी आपूर्ति के लिए आधुनिक ड्रिप और फ्रॉस्ट सिंचाई प्रणाली',
-    mulchingDesc: 'मिट्टी सुरक्षा और खरपतवार नियंत्रण के लिए टिकाऊ मल्चिंग पेपर',
-    rainpipesDesc: 'विश्वसनीय पानी वितरण के लिए गुणवत्तापूर्ण रेन पाइप्स',
-    sprayPumpsDesc: 'कीटनाशक और उर्वरक अनुप्रयोग के लिए कुशल स्प्रे पंप'
+fertilizersDesc: 'इष्टतम पौधे पोषण के लिए जैविक और रासायनिक उर्वरक',
+pgrDesc: 'बेहतर पौध विकास और उत्पादन बढ़ाने के लिए उच्च गुणवत्ता वाले पौध वृद्धि नियामक',
+herbicidesDesc: 'खरपतवार नियंत्रण के लिए चुनिंदा और गैर-चुनिंदा खरपतवारनाशी',
+insecticidesDesc: 'फसलों को कीटों से सुरक्षित रखने के लिए विश्वसनीय समाधान',
+micronutrientsDesc: 'स्वस्थ और संतुलित पौध वृद्धि के लिए आवश्यक सूक्ष्म पोषक तत्व',
+fungicidesDesc: 'फसलों को फफूंद और बीमारियों से बचाने के लिए प्रभावी फफूंदनाशी',
+irrigationDesc: 'कुशल पानी आपूर्ति के लिए आधुनिक ड्रिप और स्प्रिंकलर सिंचाई प्रणाली',
+mulchingDesc: 'मिट्टी सुरक्षा और खरपतवार नियंत्रण के लिए टिकाऊ मल्चिंग पेपर',
+rainpipesDesc: 'विश्वसनीय पानी वितरण के लिए गुणवत्तापूर्ण रेन पाइप्स',
+sprayPumpsDesc: 'कीटनाशक और उर्वरक अनुप्रयोग के लिए कुशल स्प्रे पंप'
   }
 };
 
@@ -222,9 +235,9 @@ interface LanguageProviderProps {
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('en');
 
-  const t = (key: string): string => {
-    return translations[language][key] || key;
-  };
+const t = (key: string): string => {
+  return translations[language]?.[key] ?? key;
+};
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>

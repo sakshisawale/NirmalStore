@@ -22,7 +22,7 @@ interface ProductModalProps {
 
 const ProductModal: React.FC<ProductModalProps> = ({ product, isOpen, onClose }) => {
   const { t } = useLanguage();
-
+ 
   if (!isOpen || !product) return null;
 
   return (
