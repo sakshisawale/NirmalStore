@@ -1365,39 +1365,6 @@ export const products: Product[] = [
       "Ensures balanced plant nutrition"
     ]
   },
-  {
-    "id": "binge",
-    "name": "Binge",
-    "category": "Plant Growth Regulators",
-    "description": "A plant growth regulator containing Gibberellic acid.",
-    "image": "binge.jpg",
-    "retailPrice": "Varies by volume",
-    "wholesalePrice": "Varies by volume",
-    "specifications": [
-      "Gibberellic acid 0.001% L",
-      "Plant growth regulator"
-    ],
-    "benefits": [
-      "Promotes cell elongation and growth",
-      "Improves fruit size and yield"
-    ]
-  },
-  {
-    "id": "hicon-60",
-    "name": "HiCON-60",
-    "category": "Amino Acids",
-    "description": "An amino acid-based product for plant growth and stress resistance.",
-    "image": "hicon-60.jpg",
-    "retailPrice": "Varies by volume",
-    "wholesalePrice": "Varies by volume",
-    "specifications": [
-      "Amino Acids (60% w/w)"
-    ],
-    "benefits": [
-      "Enhances plant vigor",
-      "Helps plants recover from stress"
-    ]
-  },
   
   {
     "id": "sprinkle",
